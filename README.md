@@ -1,2 +1,2 @@
 # Jasmine-TDD-learning
-Learning Jasmine (JS testing framework) with simple JS functions 
+Learning to use Jasmine (JS testing framework) from command line with simple JS functions 
