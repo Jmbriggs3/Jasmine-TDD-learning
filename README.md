@@ -1,2 +1,2 @@
 # Jasmine-TDD-learning
-Learning Jasmine TDD with simple JS functions 
+Learning Jasmine (JS testing framework) with simple JS functions 
