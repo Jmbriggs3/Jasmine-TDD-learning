@@ -6,12 +6,16 @@ function subtract (a,b) {
 	return a-b;
 }
 
-function sum () {
+function sum (array) {
+	return array.reduce((total, current) => total + current, 0);
+};
 	
-}
-
-function multiply () {
-	
+function multiply (array) {
+	let sum = 1;
+    for (let i = 0; i < array.length; i++) {
+        sum = sum * array[i];
+    }
+    return sum;
 }
 
 function power() {
@@ -30,4 +34,9 @@ module.exports = {
     power,
 	factorial
 }
+	
+	
+
+	
+
 	
