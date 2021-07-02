@@ -18,13 +18,29 @@ function multiply (array) {
     return sum;
 }
 
-function power() {
-	
+function power(a,b) { 
+	return a ** b;
 }
 
-function factorial() {
+function factorial(n) { 
+	if (n === 0) return 1;
+	let num = 1; 
+	for (let i = n; i > 0; i--) { 
+		 num *= i; 
+	}
+	return num;
+};
+		
+ 
 	
-}
+
+
+
+	
+		
+
+
+
 
 module.exports = {
 	add,
